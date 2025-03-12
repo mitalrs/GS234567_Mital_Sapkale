@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Store from '../Pages/Store';
-import SKU from '../Pages/SKU';
-import Planning from '../Pages/Planning';
-import Charts from '../Pages/Charts';
+import Store from '../Pages/Store/Store';
+import SKU from '../Pages/Sku/SKU';
+import Planning from '../Pages/Planning/Planning';
+import Charts from '../Pages/Charts/Charts';
 
 const AppRoutes: React.FC = () => {
   return (
